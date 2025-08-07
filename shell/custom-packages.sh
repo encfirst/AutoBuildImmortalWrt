@@ -1,7 +1,14 @@
 #!/bin/bash
 # ============= imm仓库内的插件==============
+# htop
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES htop"
+# 文件管理
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-filebrowser-zh-cn"
+# OpenList
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openlist"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-openlist-zh-cn"
+
+
 
 # ============= imm仓库外的第三方插件==============
 # ============= 若启用 则打开注释 ================
