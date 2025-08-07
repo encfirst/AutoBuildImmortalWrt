@@ -1,6 +1,7 @@
 #!/bin/bash
 # ============= imm仓库内的插件==============
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES htop"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-filebrowser-zh-cn"
 
 # ============= imm仓库外的第三方插件==============
 # ============= 若启用 则打开注释 ================
